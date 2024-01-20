@@ -2,6 +2,10 @@
     color: #ffff !important;
 }
 
+a{
+    color: rgb(0 161 253);
+}
+
 .navbar {
     margin-bottom: 0px;
     width: 100%;
@@ -16,10 +20,6 @@
 
 .logo {
     margin-top: auto;
-}
-
-.text-danger {
-    color: rgb(0 161 253);
 }
 
 .slider {
@@ -76,7 +76,7 @@
 }
 
 .header-connect {
-    background: #21325e1a;
+    background: #fff;
 }
 
 .header-social ul li a {
@@ -96,12 +96,6 @@
 .toggle-btn {
     background-color: skyblue;
 }
-
-.slider .owl-theme .owl-controls .owl-page span {
-    background-color: rgb(0 161 253);
-
-}
-
 
 .bg-success {
     background-color: #7cbd1e !important;
@@ -173,6 +167,9 @@
     border-color: #1f3c88;
 }
 
+.panel.sidebar-menu {
+    padding-bottom: 0px;
+}
 
 .marcas {
     display: flex;
@@ -188,9 +185,13 @@
     /* Ajusta el alto según tus necesidades */
 }
 
+.page-title {
+    padding-top: 0px;
+}
+
 .count-item h5 {
-    border-left: 2px solid rgb(0 161 253);;
-    border-right: 2px solid rgb(0 161 253);;
+    border-left: 2px solid rgb(0 161 253);
+    border-right: 2px solid rgb(0 161 253);
 }
 
 /* section-propiedad */
@@ -199,7 +200,21 @@
     color: rgb(0 161 253);
 }
 
+.btn-primary {
+    background-color: #21325E;
+    border-color: #21325E;
+}
+
+.btn-primary:hover {
+    color:  rgb(0 161 253);
+}
+
 /* section-footer  */
+
+.logofooter{
+    font-family: 'El Messiri';
+}
+
 .footer-title-line {
     background: rgb(0 161 253);
 }
