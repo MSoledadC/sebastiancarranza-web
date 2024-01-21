@@ -26,6 +26,10 @@ a{
     font-size: smaller;
 }
 
+.goog-te-gadget-simple{
+    margin-left: -120px;
+}
+
 .goog-te-gadget-icon {
     width: 0px;
 }
@@ -93,6 +97,10 @@ a{
 
 .header-call p {
     color: #21325E;
+}
+
+.list-inline {
+    margin-left: -40px;
 }
 
 .lead {
