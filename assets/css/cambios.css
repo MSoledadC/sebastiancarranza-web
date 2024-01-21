@@ -22,6 +22,14 @@ a{
     margin-top: auto;
 }
 
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span  {
+    font-size: smaller;
+}
+
+.goog-te-gadget-icon {
+    width: 0px;
+}
+
 .slider {
     min-height: 600px;
     height: calc(100vh);
@@ -198,6 +206,14 @@ a{
 
 .s-property-title {
     color: rgb(0 161 253);
+}
+
+.property-meta {
+    padding: 0px 0px;
+}
+
+.lSSlideOuter {
+    margin-bottom: -40px;
 }
 
 .btn-primary {
