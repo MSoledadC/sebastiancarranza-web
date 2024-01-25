@@ -41,7 +41,6 @@ a{
 
 .ml-auto {
     margin-left: 20px;
-    /* Ajusta el valor según sea necesario */
 }
 
 .slider-content {
@@ -196,9 +195,8 @@ a{
 
 .svg-img {
     width: 200px;
-    /* Ajusta el ancho según tus necesidades */
     height: 200px;
-    /* Ajusta el alto según tus necesidades */
+    
 }
 
 .page-title {
@@ -208,6 +206,21 @@ a{
 .count-item h5 {
     border-left: 2px solid rgb(0 161 253);
     border-right: 2px solid rgb(0 161 253);
+}
+
+/* section-testimonial */
+
+.testimonial .item .client-face{
+    top: 360px;
+    margin-right: 50px;
+}
+
+.text-testimonial {
+    text-align: center;
+}
+
+.testimonial .owl-theme .owl-controls .owl-page span {
+    background: rgb(0 161 253);;
 }
 
 /* section-propiedad */
