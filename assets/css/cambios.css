@@ -246,6 +246,15 @@ code {
     color: #000000 !important;
 }
 
+.recent-property-widget ul li .property-seeker .b-1 {
+    background-color: #040500;
+    color: #fff;
+}
+
+.recent-property-widget ul li .property-seeker .b-2 {
+    color: #040500;
+    background-color:  #fff;
+}
 
 /* section-propiedad */
 
@@ -276,6 +285,39 @@ code {
 .btn-block {
     color: #21325E;
 }
+
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    display: none;
+}
+
+.btn-secondary {
+    background-color: #000000;
+    border-color: #21325E;
+    color: #21325E;
+}
+
+.btn-square, .btn-sm-square, .btn-md-square, .btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
 
 
 
