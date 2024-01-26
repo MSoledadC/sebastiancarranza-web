@@ -256,6 +256,18 @@ code {
     background-color:  #fff;
 }
 
+.printer-icon:hover {
+    color: #21325E !important;
+    border-color: #21325E !important;
+}
+
+.favorite-and-print .add-to-fav:hover, .favorite-and-print .printer-icon:hover {
+    color: #21325E;
+    border-color:  #21325E;
+    
+}
+
+
 /* section-propiedad */
 
 .s-property-title {
