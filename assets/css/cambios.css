@@ -204,8 +204,8 @@ a{
 }
 
 .count-item h5 {
-    border-left: 2px solid rgb(0 161 253);
-    border-right: 2px solid rgb(0 161 253);
+    border-left: 2px solid #00a1fd;
+    border-right: 2px solid #00a1fd;
 }
 
 /* section-testimonial */
@@ -223,6 +223,30 @@ a{
     background: rgb(0 161 253);;
 }
 
+/* section-comercial */
+.panel.sidebar-menu .panel-heading h3 {
+    border-bottom: solid 3px #00a1fd;
+}
+
+.panel.sidebar-menu ul.tag-cloud li a {
+    color: #060c1a;
+}
+
+.panel.sidebar-menu ul.tag-cloud li a:hover {
+    color: #00a1fd;;
+    text-decoration: none;
+    
+
+    background-color: #21325E;
+    border-color: #21325E;
+    border-radius: 5px;
+}
+
+code {
+    color: #000000 !important;
+}
+
+
 /* section-propiedad */
 
 .s-property-title {
@@ -238,13 +262,22 @@ a{
 }
 
 .btn-primary {
-    background-color: #21325E;
+    background-color: #000000;
     border-color: #21325E;
+    color: #000000;
 }
 
 .btn-primary:hover {
     color:  rgb(0 161 253);
 }
+
+/* section-contacto */
+
+.btn-block {
+    color: #21325E;
+}
+
+
 
 /* section-footer  */
 
@@ -260,9 +293,29 @@ a{
 }
 
 .footer-blog .blg-entry h6 a {
+    color: #21325E;
+}
+
+.footer-blog .blg-entry h6 a:hover {
     color: rgb(0 131 255);
 }
 
 .footer-menu li {
     border-bottom: 1px solid rgb(0 171 255 / 31%);
+}
+
+
+.footer .subscribe {
+    background-color: #000000;
+    border-color: #21325E; 
+    color: #000000;
+}
+
+.input-group-btn .btn {
+    background-color: rgb(0, 0, 0) !important;
+    color: #00a1fd;
+}
+
+.footer ul li a:hover { 
+    color: #00a1fd;
 }
