@@ -239,8 +239,10 @@ a{
 /* section-testimonial */
 
 .testimonial .item .client-face{
-    top: 360px;
+    top: 390px;
     margin-right: 50px;
+    font-size: 24px; 
+    color: #FFD700; 
 }
 
 .text-testimonial {
@@ -248,7 +250,7 @@ a{
 }
 
 .testimonial .owl-theme .owl-controls .owl-page span {
-    background: rgb(0 161 253);;
+    background: #21325E;
 }
 
 /* section-comercial */
@@ -368,7 +370,7 @@ code {
 }
 
 .footer-title-line {
-    background: rgb(0 161 253);
+    background: #21325E;
 }
 .social ul li a:hover i {
     color: rgb(0 161 253);
@@ -400,4 +402,8 @@ code {
 
 .footer ul li a:hover { 
     color: #00a1fd;
+}
+
+.bottom-menu ul li a:hover {
+    color: #21325E;
 }
