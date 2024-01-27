@@ -3,7 +3,7 @@
 }
 
 a{
-    color: rgb(0 161 253);
+    color: #00a1fd;
 }
 
 .navbar {
@@ -253,6 +253,14 @@ a{
     background: #21325E;
 }
 
+h6 a {
+    color: #21325E;
+}
+
+h6 a:hover{
+    color: #00a1fd;
+}
+
 /* section-comercial */
 .panel.sidebar-menu .panel-heading h3 {
     border-bottom: solid 3px #00a1fd;
@@ -319,7 +327,7 @@ code {
 }
 
 .btn-primary:hover {
-    color:  rgb(0 161 253);
+    color:  #00a1fd;
 }
 
 /* section-contacto */
