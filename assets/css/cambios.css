@@ -203,6 +203,21 @@ a{
     height: auto;
 }
 
+.image-container img {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    background-position-x: 0px;
+    background-position-y: center;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    transform: translate(0);
+    opacity: 1;
+}
+
 .btn-outline-primary {
     color: #1f3c88;
     background-color: transparent;
