@@ -12,7 +12,7 @@ a{
     border-bottom: none;
     position: absolute;
     z-index: 99;
-    background: url('assets/img/inicio/9.jpg') center center fixed;
+    background: url('assets/img/inicio/2.jpg') center center fixed;
     background-size: cover;    
     height: 20px; /* Ajusta la altura del navbar según tus necesidades */
     display: flex;
@@ -109,8 +109,8 @@ a{
     margin-left: 0px;
     margin-right: 0px;
     object-fit: cover;
-    opacity: 1;
     transform: translate(0);
+    opacity: 1;
 }
 
 .btn.btn-white.btn-outline-white {
