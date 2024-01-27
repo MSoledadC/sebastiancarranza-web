@@ -12,6 +12,51 @@ a{
     border-bottom: none;
     position: absolute;
     z-index: 99;
+    background: url('assets/img/inicio/9.jpg') center center fixed;
+    background-size: cover;    
+    height: 20px; /* Ajusta la altura del navbar según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px; /* Ajusta la posición del navbar en relación con el header-connect */
+    
+}
+
+.navbar-nav.navbar-right:last-child {
+    color: #fff;
+    background-color: #21325E;
+    border-color: #21325E;
+    border-radius: 5px;
+
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #21325E;
+    border-color: #21325E;
+}
+
+.header-connect {
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0); /* Fondo transparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.header-social ul li a {
+    font-size: 20px;
+}
+
+.header-call p {
+    color: #21325E;
+}
+
+.goog-te-gadget-simple {
+    background-color: transparent !important;
 }
 
 .yamm .dropdown-menu {
@@ -57,7 +102,13 @@ a{
 
 
 .item img {
-
+    background-position-x: 0px;
+    background-position-y: center;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    object-fit: cover;
     opacity: 1;
     transform: translate(0);
 }
@@ -73,30 +124,7 @@ a{
     border-color: #21325E;
 }
 
-.navbar-nav.navbar-right:last-child {
-    color: #fff;
-    background-color: #21325E;
-    border-color: #21325E;
-    border-radius: 5px;
 
-}
-
-.navbar-toggle .icon-bar {
-    background-color: #21325E;
-    border-color: #21325E;
-}
-
-.header-connect {
-    background: #fff;
-}
-
-.header-social ul li a {
-    font-size: 20px;
-}
-
-.header-call p {
-    color: #21325E;
-}
 
 .list-inline {
     margin-left: -40px;

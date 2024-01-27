@@ -1057,7 +1057,7 @@ font-weight: 500;
 
 .header-connect{
     padding-top: 10px;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.164), transparent);
+    background: transparent;
 }
 .header-call p{
     color: #666666;
