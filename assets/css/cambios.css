@@ -546,7 +546,61 @@ code {
     .navbar-toggle {
         margin-top: 50px;
     }
+
+
+    .header-connect{
+        width: 70%;
+        text-align: right;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px;
+        background-color:#fff;
+    }
+
+    .navbar-collapse.collapse {
+        margin-left: 85px;
+    }
+
+    .header-call p {
+        display: none;
+        ;
+    }
+
+    .header-social ul li a {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .text-white {
+        font-size: 40px;
+    }
+
+    .navbar-nav.navbar-right:last-child {
+        margin-right: 70px;
+    }
+
+    .navbar-header:before {
+        margin-top: 70px;
+    }
+
+    .page-head-content{
+        padding-top: 0px;
+    }
+
+    .mapa {
+        width: 400px;
+    }
+   
+    
+
+    
 }
 
 /* CEL*/
-@media (max-width: 340px) {}
+@media (max-width: 340px) {
+    
+
+
+
+}
