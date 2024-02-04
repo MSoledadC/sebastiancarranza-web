@@ -483,22 +483,17 @@ code {
 /* TABLETS */
 @media (max-width: 950px) {
     .navbar-nav.navbar-right:last-child {
-        margin-right: 0px;
-    }
-
-    .logo {
-        width: 35%;
+        margin-right: -60px;
     }
 
     .text-white {
         font-size: xx-large;
-        width: 35%;
     }
 
     .navbar-collapse.collapse {
-        width: 80%;
         margin-top: -70px;
         margin-left: 115px;
+        margin-right: 15px;
     }
 
     .image-container,
@@ -530,6 +525,10 @@ code {
 
     .single-footer {
         margin-top: 0px;
+    }
+
+    .soporte {
+        padding-left: 15px;
     }
 
 
