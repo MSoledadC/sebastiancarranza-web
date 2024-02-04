@@ -541,6 +541,9 @@ code {
 
     .google {
         float: right;
+        position: fixed;
+        right: 35px;
+        top: 10px;
     }
 
     .navbar-toggle {
@@ -554,7 +557,7 @@ code {
     }
 
     .navbar-toggle {
-        margin-top: 15px;
+        margin-top: 0px;
         background-color:#fff;
     }
 
@@ -572,12 +575,17 @@ code {
         font-size: 25px;
     }
 
+    .header-social ul{
+        margin-right: 164px;
+    }
+    margin-right: 164px;
+
     .text-white {
         font-size: 40px;
     }
 
     .navbar-nav.navbar-right:last-child {
-        margin-right: 70px;
+        margin-right: -70px;
     }
 
     .navbar-header:before {
@@ -588,8 +596,30 @@ code {
         padding-top: 0px;
     }
 
+    .owl-carousel .owl-item{
+        width: 425px;
+    }
+
+    .logo {
+        margin-top: -65px;
+        margin-right: 112px;  
+    }
+
     .mapa {
         width: 400px;
+    }
+
+    .btn-wrapper{
+        bottom: 120px;
+    }
+
+    .vistatablet {
+        flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: 100%;
+        
     }
    
     
