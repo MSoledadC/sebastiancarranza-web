@@ -542,12 +542,16 @@ code {
     .google {
         float: right;
         position: fixed;
-        right: 35px;
+        right: 120px;
         top: 10px;
     }
 
     .navbar-toggle {
         margin-top: 50px;
+    }
+
+    .navbar {
+        margin-top: 0px;
     }
 
 
@@ -578,10 +582,13 @@ code {
     .header-social ul{
         margin-right: 164px;
     }
-    margin-right: 164px;
 
     .text-white {
-        font-size: 40px;
+        font-size: -webkit-xxx-large;
+    }
+
+    .page-head-content{
+        margin-left: 200px;
     }
 
     .navbar-nav.navbar-right:last-child {
@@ -589,7 +596,7 @@ code {
     }
 
     .navbar-header:before {
-        margin-top: 70px;
+        margin-top: 220px;
     }
 
     .page-head-content{
