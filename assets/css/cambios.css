@@ -557,7 +557,7 @@ code {
 
     .header-connect{
         width: 70%;
-        text-align: right;
+       
     }
 
     .navbar-toggle {
@@ -580,7 +580,11 @@ code {
     }
 
     .header-social ul {
-        margin-right: 300px;
+        margin-right: 120px;
+    }
+
+    .goog-te-gadget-simple{
+        margin-right: -60px;
     }
 
     .text-white {
